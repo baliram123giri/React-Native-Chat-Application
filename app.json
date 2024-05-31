@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "home_services1",
-    "slug": "home_services1",
+    "name": "chatApp",
+    "slug": "chatApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.baliram123giri.chatApp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b893d222-5eb3-4277-8006-44e8b8b7125e"
+      }
     }
   }
 }
